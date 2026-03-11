@@ -216,6 +216,11 @@ button, input, textarea { font: inherit; }
 }
 
 @media (max-width: 759px) {
+  .site-header .social-links,
+  .header-tools .social-links {
+    display: none !important;
+  }
+
   .page-shell,
   .footer-shell,
   .header-shell,
